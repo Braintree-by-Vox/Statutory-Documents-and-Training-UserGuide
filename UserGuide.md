@@ -61,7 +61,7 @@ The organisations (including your own) that are responsible for issuing or certi
 
 From the Statutory Documents Setup page, click on Issuing Authorities. 
 
-![alt text](docs\images\image-5.png)
+![alt text](image-5.png)
 
 Capture the data as follows:
 
