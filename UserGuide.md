@@ -43,7 +43,7 @@ Documentation can be attached to various entities such as customers, vendors, it
 ### Capture Setup fields
 Search for Statutory Documents Setup.
 
-![alt text](docs\images\image-4.png)
+![alt text](image-4.png)
 
 Capture fields for document management
 * Statutory Documents number series - used to number entries in the statutory documents table
