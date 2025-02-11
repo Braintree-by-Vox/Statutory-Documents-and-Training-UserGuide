@@ -10,6 +10,6 @@
 6. If you want to host the list of commodity codes locally in the database, you can leave the **Use Web Service for commodity lookup** field disabled. Not all service providers do, but if the chosen Service Provider does support commodity code lookup, you can enable this feature.
 
 
-![image002](./docs/images/image002.png)
+![image002](image002.png)
 
 >The user can download a copy of ZRA Codes used for mapping in the system as described in this document.
