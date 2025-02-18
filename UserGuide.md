@@ -15,11 +15,12 @@
     - [Entity Defaults](#entity-defaults)
     - [Training Programmes](#training-programmes)
     - [Training Subjects](#training-subjects)
+    - [Link Skills to Certifications](#link-skills-to-certifications)
   - [Managing Documents for Entities](#managing-documents-for-entities)
     - [Create a new document](#create-a-new-document)
     - [Approve the document](#approve-the-document)
   - [Managing documents from the entity - Example : Customer](#managing-documents-from-the-entity---example--customer)
-    - [Administering Training](#administering-training)
+- [Administering Training](#administering-training)
   - [Create a course](#create-a-course)
   - [Schedule classes from a course](#schedule-classes-from-a-course)
   - [Record attendance and results of classes](#record-attendance-and-results-of-classes)
@@ -53,11 +54,11 @@ Capture fields for document management
 * Statutory Documents number series - used to number entries in the statutory documents table
 * Expiry warning period - a date formula which indicates how long before expiry you would like the system to warn you.
 
-Captrue fields for training administration
+Capture fields for training administration
 * Course number series
 * Training document number series
 * Class number series
-* Training job number (if ingetrating to Projects module)
+* Training job number (if integrating to Projects module)
 * Class No. Series - for identifying classes
 
 ### Issuing Authorities
@@ -71,7 +72,7 @@ Capture the data as follows:
 
 ![alt text](image-6.png)
 
-*   Code : unique code to indentify the organisation
+*   Code : unique code to identify the organisation
 *   Name - full name of the organisation
 *   Membership number - if you have a registration number with the external organisation, enter it here
 *   Vendor number - link to a vendor to facilitate payment of membership fees.
@@ -91,7 +92,7 @@ Capture the information as follows:
 |Area of jurisdiction|Free text, indicating where the document is valid eg Global, National, Site|
 |Document importance| Optional / Recommended / Mandatory|
 |Duplicates allowed| If multiple editions of the same document type can be issued to a particular entity, tick on. If ticked off, the system will prevent you from capturing more than one edition of a document.|
-|Extention Period   |                                                       |
+|Extension Period   |                                                       |
 |Maximum Extensions allowed |   |
 |Associated Entities:|Select the entities to which the document type can be attached: Customer / Vendor / Fixed Asset / Item / Resource / Service Item / Employee |
     |
@@ -134,6 +135,14 @@ Capture one or more modules / subjects that are offered as part of the course:
 ### Training Subjects
 This function allows you to define subjects on which you will offer training. 
 
+### Link Skills to Certifications
+
+* Search for “Skill codes”.
+* Edit the list.
+* Next to each skill code, select the applicable certification
+
+![alt text](image-19.png)
+
 ## Managing Documents for Entities
 An entity is a master record against which you wish to store and manage documents. This could be a supplier, customer, inventory item, fixed asset, resource or employee.
 
@@ -141,7 +150,7 @@ You can manage the documents via an administration role centre, and you can also
 
 Make sure that your profile is set to 'Document Manager'. The role centre should look something like this:
 
-![alt text](image-13.png)
+![alt text](docs/images/image-19.png)
 
 ### Create a new document
 1. Click on '+ Statutory Document' OR open one of the cues, and click New.
@@ -177,7 +186,7 @@ If you have the appropriate authority, you can update the status of the entry to
 The above process applies to all entities.
 
 
-### Administering Training
+# Administering Training
 
 ## Create a course
 To create a new training course, open the Training Courses cue from the role centre.
