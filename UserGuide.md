@@ -48,7 +48,7 @@ Documentation can be attached to various entities such as customers, vendors, it
 ### Capture Setup fields
 Search for Statutory Documents Setup.
 
-![alt text](image-4.png)
+![alt text](docs/images/image-4.png)
 
 Capture fields for document management
 * Statutory Documents number series - used to number entries in the statutory documents table
@@ -66,11 +66,11 @@ The organisations (including your own) that are responsible for issuing or certi
 
 From the Statutory Documents Setup page, click on Issuing Authorities. 
 
-![alt text](image-5.png)
+![alt text](docs/images/image-5.png)
 
 Capture the data as follows:
 
-![alt text](image-6.png)
+![alt text](docs/images/image-6.png)
 
 *   Code : unique code to identify the organisation
 *   Name - full name of the organisation
@@ -80,7 +80,7 @@ Capture the data as follows:
 ### Document Types
 The types of document which your organisation needs to store, and the rules of how to manage them, are entered here.  From the Statutory Documents Setup, select 'Document Types':
 
-![alt text](image-7.png)
+![alt text](docs/images/image-7.png)
 
 Capture the information as follows:
 
@@ -111,7 +111,7 @@ Enter fields as follows:
 
 Repeat for each document required for the entity type. Example:
 
-![alt text](image-8.png)
+![alt text](docs/images/image-8.png)
 
 ### Training Programmes
 This function allows you to define the outline of a training programme.
@@ -120,17 +120,17 @@ A list of existing programmes will appear.  Click on New.
 
 Enter General information about the programme:
 
-![alt text](image-9.png)
+![alt text](docs/images/image-9.png)
 
 where applicable, enter Accreditation information:
 
-![alt text](image-10.png)
+![alt text](docs/images/image-10.png)
 
 This will link completed training for an employee to document certifications.
 
 Capture one or more modules / subjects that are offered as part of the course:
 
-![alt text](image-11.png)
+![alt text](docs/images/image-11.png)
 
 ### Training Subjects
 This function allows you to define subjects on which you will offer training. 
@@ -141,7 +141,7 @@ This function allows you to define subjects on which you will offer training.
 * Edit the list.
 * Next to each skill code, select the applicable certification
 
-![alt text](image-19.png)
+![alt text](docs/images/image-19.png)
 
 ## Managing Documents for Entities
 An entity is a master record against which you wish to store and manage documents. This could be a supplier, customer, inventory item, fixed asset, resource or employee.
@@ -155,13 +155,13 @@ Make sure that your profile is set to 'Document Manager'. The role centre should
 ### Create a new document
 1. Click on '+ Statutory Document' OR open one of the cues, and click New.
    
-   ![alt text](image-14.png)
+   ![alt text](docs/images/image-14.png)
 
 2. The Document No. will be allocated automatically from the number series defined during Setup.
 3. Enter the Document Association (Vendor / Customer / Item / Asset / Resource / Employee), and select an entity to which the document should be attached. 
 4. Select the document type. The system will automatically populate the validity and issuing authority.
    
-   ![alt text](image-15.png)
+   ![alt text](docs/images/image-15.png)
 
 5. Enter the date of issue.
 6. Enter the number of the document.
@@ -175,11 +175,11 @@ If you have the appropriate authority, you can update the status of the entry to
 2.  Open the card for a customer.
 3.  To load the default document types, click on Customer -> Statutory Documents -> Create Default Statutory Documents.
    
-![alt text](image-16.png)
+![alt text](docs/images/image-16.png)
 
 4.  The Statutory Documents fact box will display a list of the documents required.
 
-![alt text](image-17.png)
+![alt text](docs/images/image-17.png)
 
 5.  Click on Customer -> Statutory Documents -> Statutory Documents. This will open the list of documents linked to the customer. You can now capture the remaining information such as the date of issue.
 
@@ -206,7 +206,7 @@ The system will create a new class for each session defined for the course, and 
 
 A pop up screen will appear, listing the sessions.
 
-![alt text](image-18.png)
+![alt text](docs/images/image-18.png)
 
 Complete the schedule by capturing the course date and venue for each session.
 
